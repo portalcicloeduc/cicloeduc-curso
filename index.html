@@ -211,7 +211,7 @@
 								<img src="img/capas/informal.png" alt="">
 								<figcaption>
 								<div class="caption-content">
-									<a href="https://vimeo.com/45830194" class="video" title="Video Vimeo">
+									<a href="https://vimeo.com/45830194" class="video" title="Video">
 										<i class="pe-7s-film"></i>
 										<p>Veja o vídeo</p>
 								</a>
@@ -225,7 +225,7 @@
 								<img src="img/capas/longo.png" alt="">
 								<figcaption>
 								<div class="caption-content">
-									 <a href="https://www.youtube.com/watch?v=Zz5cu72Gv5Y" class="video" title="Video Youtube">
+									 <a href="https://www.youtube.com/watch?v=Zz5cu72Gv5Y" class="video" title="Video">
 										<i class="pe-7s-film"></i>
 										<p>Veja o vídeo</p>
 									</a>
@@ -238,7 +238,7 @@
 								<img src="img/capas/semconect.png" alt="">
 								<figcaption>
 								<div class="caption-content">
-									<a href="https://vimeo.com/45830194" class="video" title="Video Vimeo">
+									<a href="https://vimeo.com/45830194" class="video" title="Video">
 										<i class="pe-7s-film"></i>
 										<p>Veja o vídeo</p>
 									</a>
@@ -440,6 +440,7 @@
 
 
 	</main>
+
 	<!-- /main -->
 <footer>
 			<div class="container margin_120_95">
@@ -464,20 +465,32 @@
 						</div>
 					</div>
 					<div class="col-lg-5 col-md-6">
-						<h5>Contate-nos</h5>
-						<ul class="contacts">
-							<li><i class="ti-mobile"></i> (84) 9 9431 - 4683</li>
-							<li><i class="ti-email"></i> plataformacicloeduc@gmail.com</li>
-						</ul>
 						<div id="newsletter">
-							<h6>Boletim de Notícias</h6>
-							<div id="message-newsletter"></div>
-							<form method="post" action="assets/newsletter.php" name="newsletter_form" id="newsletter_form">
-								<div class="form-group">
-									<input type="email" name="email_newsletter" id="email_newsletter" class="form-control" placeholder="Informe seu E-mail">
-									<input type="submit" value="Assinar" id="submit-newsletter">
-								</div>
-							</form>
+							<div id="mauticform_wrapper_newslettercursoredacaocicloeduc" class="mauticform_wrapper">
+							    <form autocomplete="false" role="form" method="post" action="http://marketing.cicloeduc.com.br/form/submit?formId=3" id="mauticform_newslettercursoredacaocicloeduc" data-mautic-form="newslettercursoredacaocicloeduc" enctype="multipart/form-data">
+							        <div class="mauticform-error" id="mauticform_newslettercursoredacaocicloeduc_error"></div>
+							        <div class="mauticform-message" id="mauticform_newslettercursoredacaocicloeduc_message"></div>
+							        <div class="form-group">
+							          <div class="mauticform-page-wrapper mauticform-page-1" data-mautic-form-page="1">
+							            <div id="mauticform_newslettercursoredacaocicloeduc_deixe_seu_email_e_acompan" data-validate="deixe_seu_email_e_acompan" data-validation-type="email" class="mauticform-row mauticform-email mauticform-field-1 mauticform-required">
+							                <label id="mauticform_label_newslettercursoredacaocicloeduc_deixe_seu_email_e_acompan" for="mauticform_input_newslettercursoredacaocicloeduc_deixe_seu_email_e_acompan" class="mauticform-label"><h5>Boletim de Notícias</h5></label>
+							                <input id="mauticform_input_newslettercursoredacaocicloeduc_deixe_seu_email_e_acompan" name="mauticform[deixe_seu_email_e_acompan]" value="" class="form-control" type="email">
+							                <span class="mauticform-errormsg" style="display: none;">Digite um e-mail correto.</span>
+							            </div>
+							            <br/>
+							            <div id="mauticform_newslettercursoredacaocicloeduc_submit" class="mauticform-row mauticform-button-wrapper mauticform-field-2">
+							                <button type="submit" name="mauticform[submit]" id="mauticform_input_newslettercursoredacaocicloeduc_submit" value="" class="btn btn-primary">Assinar</button>
+							            </div>
+							            </div>
+							        </div>
+							        <input type="hidden" name="mauticform[formId]" id="mauticform_newslettercursoredacaocicloeduc_id" value="3">
+							        <input type="hidden" name="mauticform[return]" id="mauticform_newslettercursoredacaocicloeduc_return" value="">
+							        <input type="hidden" name="mauticform[formName]" id="mauticform_newslettercursoredacaocicloeduc_name" value="newslettercursoredacaocicloeduc">
+
+							        </form>
+							</div>
+
+							
 						</div>
 					</div>
 				</div>
@@ -499,7 +512,30 @@
     <script src="js/common_scripts.js"></script>
     <script src="js/main.js"></script>
 	<script src="assets/validate.js"></script>
-	
+
+	<!-- Newsletter -->
+
+
+<script type="text/javascript">
+    /** This section is only needed once per page if manually copying **/
+    if (typeof MauticSDKLoaded == 'undefined') {
+        var MauticSDKLoaded = true;
+        var head            = document.getElementsByTagName('head')[0];
+        var script          = document.createElement('script');
+        script.type         = 'text/javascript';
+        script.src          = 'http://marketing.cicloeduc.com.br/media/js/mautic-form.js';
+        script.onload       = function() {
+            MauticSDK.onLoad();
+        };
+        head.appendChild(script);
+        var MauticDomain = 'http://marketing.cicloeduc.com.br';
+        var MauticLang   = {
+            'submittingMessage': "Por favor, aguarde..."
+        }
+    }
+</script>
+
+
 	<!-- FlexSlider -->
 	<script defer src="js/jquery.flexslider.js"></script>
 	<script>
