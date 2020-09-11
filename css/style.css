@@ -42,6 +42,17 @@ Author URI: http://themeforest.net/user/Ansonika/
 /*-------- Main navigation --------*/
 /* All styles for screen size over 992px
 ================================================== */
+
+
+.cor-azulescuro {
+     color: #0e2940;
+}
+
+.box_highlight {
+    background-color: #18006b !important;
+}
+
+
 @media only screen and (min-width: 992px) {
   nav#menu.main-menu {
     display: block !important;
@@ -5858,3 +5869,7 @@ ul.bullets li:before {
     padding: 5px 0;
   }
 }
+
+.cor-azulescuro {
+						color: #0e2940;
+					}
