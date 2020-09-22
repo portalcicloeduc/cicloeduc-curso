@@ -43,13 +43,18 @@ Author URI: http://themeforest.net/user/Ansonika/
 /* All styles for screen size over 992px
 ================================================== */
 
-.text-slide{
+.btn-hangouts {
+  background-color: #00796b;
+  border-color: #00796b;
+}
+
+.text-slide {
   color: white;
   font-weight: bold;
   font-size: 60px;
 }
 
-.text-branco{
+.text-branco {
   color: white;
 }
 
